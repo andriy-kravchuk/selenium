@@ -15,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 configuration = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
 configuration.read("main.conf")
 
-CLICK = 1
+CLICK = 0
 SEND_KEYS = 1
 LOG_LEVEL = "debug"
 TIMEOUT = 61
